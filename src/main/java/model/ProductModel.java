@@ -111,7 +111,7 @@ public class ProductModel {
 				DriverManagerConnectionPool.releaseConnection(connection);
 			}
 		}
-		
+		  
 		return (result != 0);
 	}
 	public synchronized Collection<ProductBean> doRetrieveAll(String where) throws SQLException {
